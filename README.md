@@ -25,3 +25,4 @@ medir request com cache
 
 
 ### Request without cache
+https://raw.githubusercontent.com/RRoggia/redis-g2/master/2017-10-25_21-16-05.png
