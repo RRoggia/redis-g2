@@ -16,7 +16,6 @@ node index.js
 ````
 
 ### To Do
-medir request sem cache    
 implementar cache com redis no db     
 medir request com cache    
 
