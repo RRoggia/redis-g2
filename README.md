@@ -22,3 +22,6 @@ medir request com cache
 
 
 [link para consulta](https://community.risingstack.com/redis-node-js-introduction-to-caching/)
+
+
+### Request without cache
