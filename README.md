@@ -16,9 +16,9 @@ node index.js
 ````
 
 ### To Do
-medir request sem cache
-implementar cache com redis no db
-medir request com cache
+medir request sem cache    
+implementar cache com redis no db     
+medir request com cache    
 
 
 [link para consulta](https://community.risingstack.com/redis-node-js-introduction-to-caching/)
