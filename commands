@@ -1,0 +1,42 @@
+help
+keys *
+SET RENAN "ola Mundo"
+GET RENAN
+GET RENAn
+EXISTS RENAN
+EXISTS NONEXIST
+DEL RENAN
+keys *
+
+
+set number 100
+incr number
+decr number
+
+
+set foo “hello”
+expire foo 5
+ttl foo 
+or
+setex foo 5 “hello”
+persist foo
+
+
+lpush people "renan" "teste"
+lrange people 0 -1
+rpush people “fim”
+llen people
+lpop people (começo)
+rpop people (fim)
+
+
+sadd cor “azul”
+sadd cor “vermelho”
+sadd cor “amarelo”
+smembers cor 
+
+
+hmset user:renan name “renan” sobrenome ”roggia”
+hgetall user:renan
+hkeys user:renan
+hvals user:renan
