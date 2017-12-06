@@ -10,6 +10,11 @@ cd <to project folder>
 npm install
 ````
 
+to start redis-db
+````
+redis-server
+````
+
 to run server
 ````
 node index.js
