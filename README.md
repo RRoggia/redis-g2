@@ -1,29 +1,27 @@
 # redis-g2
 
-install nodeJs
+1. install nodeJs
 
-clone project
+2. clone project
 
+3. install Redis db
 
+4. install project dependencies
 ````
 cd <to project folder>
 npm install
 ````
 
+5. start redis db
 to start redis-db
 ````
 redis-server
 ````
 
-to run server
+6.to run server
 ````
 node index.js
 ````
-
-### To Do
-implementar cache com redis no db     
-medir request com cache    
-
 
 [link para consulta](https://community.risingstack.com/redis-node-js-introduction-to-caching/)
 
