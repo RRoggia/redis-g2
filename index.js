@@ -28,8 +28,8 @@ app.get("/repos", cache, function(req, res, next) {
 			res.send(error);
 		} else if (response.statusCode >= 200 && response.statusCode < 300){
 			var corpo = JSON.parse(body);
-			client.setex(organization, 5, corpo.length);
-			res.send("a " + organization + " tem " + corpo.length + " repositorios\n");
+			client.setex(organization, 10, corpo.length);
+			res.send("a " + organization + " tem " + (corpo.length === 30 ? "+ que " + corpo.length : corpo.length) + " repositorios\n");
 		}else{
 			res.send(response);
 		}
@@ -42,7 +42,7 @@ function cache(req, res, next){
         if (err) throw err;
 
         if (data != null) {
-            res.send("a " + organization + " tem " + data + " repositorios\n");
+            res.send("a " + organization + " tem " + (data == 30 ? "+ que " + data : data) + " repositorios\n");
         } else {
             next();
         }
